@@ -7,7 +7,7 @@ def analyze_severity(message):
     elif "okay" in message.lower() or "good" in message.lower():
         return "Low Severity", "green"
     else:
-        return "Medium Severity", "yellow"
+        return "Medium Severity", "blue"
 
 # Streamlit Layout
 st.title('Physical Therapy Messaging App')
